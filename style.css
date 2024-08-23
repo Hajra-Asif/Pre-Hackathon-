@@ -1,0 +1,18 @@
+.carousel-control-prev, .carousel-control-next{
+    width: 80px;
+    height: 60px;
+    background-color: orange;
+    margin-top: 8em;
+}
+
+
+
+@media (max-width:765px){
+    .cardp{
+        width: 80% !important;
+    }
+    .carousel-control-prev, .carousel-control-next{
+        width: 50px;
+        height: 60px;
+    }
+}
